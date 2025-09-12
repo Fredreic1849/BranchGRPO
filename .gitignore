@@ -1,0 +1,139 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and outputs
+*.log
+logs/
+log/
+outputs/
+results/
+wandb/
+tensorboard_logs/
+tb_logs/
+
+# Training artifacts
+checkpoints/
+ckpt/
+models/
+saved_models/
+tmp/
+temp/
+
+# Data directories
+data/
+datasets/
+images/
+images_*/
+videos/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Model checkpoints and weights
+*.bin
+*.h5
+hps_ckpt/
+flux_ckpt/
+clip_ckpt/
+
+# Experiment tracking
+mlruns/
+.mlflow/
+
+# Cache
+.cache/
+*.cache
+
+# Compiled
+*.pyc
+*.pyo
+
+# Personal/Internal files
+personal/
+internal/
+private/
+test_*
+debug_*
+scratch/
+
+# Large files that shouldn't be in git
+*.tar
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# Configuration files with sensitive info
+config_personal.yaml
+config_internal.yaml
+secrets.yaml
+api_keys.txt
+
+# Runtime files
+*.pid
+*.sock
+core.*
+
+finetune_flux_branchgrpo_8gpus.sh
+
+# External dependencies (should be installed via requirements.txt)
+HPSv2/
